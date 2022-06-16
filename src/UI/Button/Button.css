@@ -1,0 +1,46 @@
+button:disabled {
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: "";
+  padding: 0.5rem;
+  color: "";
+  background-color: "";
+  font-size: "";
+  width: max-content;
+  text-align: center;
+  justify-content: center;
+  margin: "";
+}
+
+/* --------------------------- */
+/* your different button style */
+/* -------------------------- */
+
+.button-primary {
+  background-color: "";
+}
+
+.button-secondary,
+.btn-full {
+  background-color: "";
+}
+
+.button-danger {
+  color: "";
+}
+
+.button-success {
+  background-color: "";
+}
+
+.button-failed {
+  background-color: "";
+}
+
+.btn-full {
+  width: 100%;
+}

@@ -2,15 +2,17 @@
 
 :root {
   /* COLOR */
-  --clr-primary: #fffff;
-  --clr-secondary: "";
-  --clr-terciary: "";
+  --clr-bg: #303030;
+  --clr-dark-blue: #1f213a;
+  --clr-secondary: #7c5cfa;
+  --clr-green: #37ffcf;
+  --clr-orange: #ffa437;
+  --clr-light-blue: #636478;
   --clr-white: #ffffff;
   --clr-black: #000000;
 
   /* Font family */
-  --ff-primary: "";
-  --ff-font: "";
+  --ff-primary: "poppins";
 
   /* FONT SIZE */
   --extra-big: 6rem;
@@ -147,4 +149,24 @@ select {
 
 .grid {
   display: grid;
+}
+
+.rounded {
+  border-radius: 100vmax;
+}
+
+.P-1\5 {
+  padding: 0.5;
+}
+
+.px-1\5 {
+  padding-inline: 0.5rem;
+}
+
+.py-1\5 {
+  padding-block: 0.5rem;
+}
+
+.p-1 {
+  padding: 1rem;
 }
